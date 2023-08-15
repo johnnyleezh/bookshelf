@@ -1,6 +1,6 @@
 import * as React from 'react'
-import {Link} from 'components/lib'
-import {ListItemList} from 'components/list-item-list'
+import { Link } from 'components/lib'
+import { ListItemList } from 'components/list-item-list'
 
 function FinishedScreen() {
   return (
@@ -12,6 +12,8 @@ function FinishedScreen() {
           them. Get started by heading over to{' '}
           <Link to="/discover">the Discover page</Link> to add books to your
           list.
+          <img src="https://w1.pngwing.com/pngs/35/448/png-transparent-child-reading-book-cartoon-animated-pict-boy-butterfly-moon-short-stories-male-play-standing.png" alt="Child Reading Book Cartoon" />
+
         </p>
       }
       noFilteredListItems={
@@ -25,4 +27,4 @@ function FinishedScreen() {
   )
 }
 
-export {FinishedScreen}
+export { FinishedScreen }
